@@ -1,0 +1,70 @@
+.parent {
+    background-color: transparent;
+    height: 400px;
+    width: 400px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.child {
+    background-color: white;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.parent:hover .child {
+    animation: right-down-left 10s ease-in infinite;
+}
+
+@keyframes right-down-left {
+    0% {
+        transform: translateX(0);
+        }
+
+    25% {
+        transform: translateX(100%);
+        }
+
+    50% {
+        transform: translateY(100%) translateX(100%);
+        }
+
+    75% {
+        transform: translateX(0%) translateY(100%);
+        }
+
+    100% {
+        transform: translateY(0%);
+        }
+}
+
+.hejclass {
+    position: absolute;
+    z-index: 0;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 1px 0px 5px white; 
+    margin-top: 50px;
+}
+
+body {
+    background-color: black;
+    background-image: url("https://slidechef.net/wp-content/uploads/2023/09/cool-background-ppt.jpg")
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
