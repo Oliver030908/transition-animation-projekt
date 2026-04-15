@@ -4,6 +4,10 @@
     width: 400px;
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("images/sej-bagrund.jpg");
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 2px;
 }
 
 .child {
@@ -55,16 +59,26 @@
     color: white;
     font-family: sans-serif;
     text-shadow: 1px 0px 5px white; 
-    margin-top: 50px;
+    background-image: url("images/cool.jpg");
+    background-size: cover;
+    margin-top: 0px;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
 }
 
 body {
     background-color: black;
-    background-image: url("https://slidechef.net/wp-content/uploads/2023/09/cool-background-ppt.jpg")
+    background-image: url("https://slidechef.net/wp-content/uploads/2023/09/cool-background-ppt.jpg");
+    margin: 0px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    
 }
